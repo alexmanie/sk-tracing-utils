@@ -1,2 +1,4 @@
 semantic-kernel
 python-dotenv
+httpx
+openai
