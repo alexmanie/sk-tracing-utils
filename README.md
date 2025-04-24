@@ -6,6 +6,8 @@ This module provides utilities for tracing and logging HTTP requests and respons
 
 ```python
 
+from trace_utils import async_clients
+
 # initialize the clients
 client, logging_async_client = async_clients(
     endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"), 
