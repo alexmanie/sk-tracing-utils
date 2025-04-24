@@ -9,7 +9,7 @@ This module provides utilities for tracing and logging HTTP requests and respons
 # initialize the clients
 client, logging_async_client = async_clients(
     endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"), 
-    key=os.getenv("AZURE_OPENAI_APIM_KEY") or DefaultAzureCredential(),
+    key=os.getenv("AZURE_OPENAI_KEY") or DefaultAzureCredential(),
     api_version=os.getenv("AZURE_OPENAI_API_VERSION")
 )
 
